@@ -2628,11 +2628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\PrimeiraApiFilmesDotNet6-old\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "projectUniqueName": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
       "projectName": "FilmesApi",
-      "projectPath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6-old\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "projectPath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
       "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6-old\\FilmesApi\\FilmesApi\\obj\\",
+      "outputPath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

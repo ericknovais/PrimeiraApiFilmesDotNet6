@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+3FjwH61/EVVq4ts3BOYwngWKPs+BGxX5PMKOfmxw/MKBe7M1rxRpdX49oV0n2MDJlwA/PPqN0LZFcwzqQFErQ==",
+  "dgSpecHash": "7Y9BHaT6AYzL6cwNrOyXO1meFntjWxkaU7xbmQD/wRUflOaHMD8GO5N8gb6uCDgvH6pp1okyI7Lknf34hMX8bA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6-old\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+  "projectFilePath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erick\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
