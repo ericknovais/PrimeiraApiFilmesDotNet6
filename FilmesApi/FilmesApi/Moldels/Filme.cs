@@ -1,8 +1,10 @@
 ﻿using FilmesApi.Database.Dtos;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FilmesApi.Moldels;
 
+[Table("Filmes")]
 public class Filme
 {
     public Filme()
