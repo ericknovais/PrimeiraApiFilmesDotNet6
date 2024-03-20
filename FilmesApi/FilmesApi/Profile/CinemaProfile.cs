@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FilmesApi.Database.Dtos;
+using FilmesApi.Database.Dtos.Sessao;
 using FilmesApi.Moldels;
 
 namespace FilmesApi.Profile;
@@ -13,6 +14,8 @@ public class CinemaProfile : AutoMapper.Profile
         CreateMap<Cinema, UpdateCinemaDto>();
         CreateMap<Cinema, ReadCinemaDto>()
             .ForMember(cinemaDto => cinemaDto.Endereco,
-            opcao => opcao.MapFrom(cinema => cinema.Endereco));
+            opcao => opcao.MapFrom(cinema => cinema.Endereco)).
+            ForMember(cinemaDto => cinemaDto.Sessoes,
+            opcao => opcao.MapFrom(cinema => cinema.Sessaos));
     }
 }

@@ -3,6 +3,7 @@ using FilmesApi.Database.Dtos;
 using FilmesApi.Database;
 using FilmesApi.Moldels;
 using Microsoft.AspNetCore.Mvc;
+using FilmesApi.Database.Dtos.Sessao;
 
 namespace FilmesApi.Controllers
 {

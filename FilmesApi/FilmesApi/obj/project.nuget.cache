@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8X1v6ruBTGSeixQsx9EDN8/WvB/N8WpU8dI3VvewOwo6oK0Y/d4tZVXT5XuMIpuHEpwK0WkjBrM7VV+4aEg3HQ==",
+  "dgSpecHash": "Ye4I7aPR2VeW+8a/KVp93Fs+npQC1XIAuaQfVhRzHzP8pUD3E/wpyYlXCFCcctD0bI4kvsGrF/fCeRgVzuEAHA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+  "projectFilePath": "C:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erick\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

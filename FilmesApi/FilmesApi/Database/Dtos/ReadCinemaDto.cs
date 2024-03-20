@@ -1,4 +1,6 @@
-﻿namespace FilmesApi.Database.Dtos;
+﻿using FilmesApi.Database.Dtos.Sessao;
+
+namespace FilmesApi.Database.Dtos;
 
 public class ReadCinemaDto
 {
@@ -6,4 +8,6 @@ public class ReadCinemaDto
     public string Nome { get; set; }
 
     public ReadEnderecoDto Endereco { get; set; }
+
+    public ICollection<ReadSessaoDto> Sessoes { get; set; }
 }

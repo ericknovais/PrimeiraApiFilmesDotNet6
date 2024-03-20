@@ -7689,24 +7689,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\erick\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\erick\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "projectUniqueName": "C:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
       "projectName": "FilmesApi",
-      "projectPath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "projectPath": "C:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
       "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\obj\\",
+      "outputPath": "C:\\Projetos\\PrimeiraApiFilmesDotNet6\\FilmesApi\\FilmesApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7787,7 +7782,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
