@@ -16,6 +16,6 @@ public class CinemaProfile : AutoMapper.Profile
             .ForMember(cinemaDto => cinemaDto.Endereco,
             opcao => opcao.MapFrom(cinema => cinema.Endereco)).
             ForMember(cinemaDto => cinemaDto.Sessoes,
-            opcao => opcao.MapFrom(cinema => cinema.Sessaos));
+            opcao => opcao.MapFrom(cinema => cinema.Sessoes));
     }
 }

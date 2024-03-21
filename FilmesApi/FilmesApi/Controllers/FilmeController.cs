@@ -37,10 +37,12 @@ public class FilmeController : ControllerBase
     }
 
     [HttpGet]
-    public IEnumerable<ReadFilmeDto> ObterFilmes([FromQuery] int skip = 0, [FromQuery] int take = 50)
+    public IEnumerable<ReadFilmeDto> ObterFilmes([FromQuery] int skip = 0, [FromQuery] int take = 50, [FromQuery] string? nomeCinema = null)
     {
-        var teste = _mapper.Map<List<ReadFilmeDto>>(_ctx.Filmes.Skip(skip).Take(take).ToList());
-        return _mapper.Map<List<ReadFilmeDto>>(_ctx.Filmes.Skip(skip).Take(take).ToList());
+        if (nomeCinema.Equals(null))
+            return _mapper.Map<List<ReadFilmeDto>>(_ctx.Filmes.Skip(skip).Take(take).ToList());
+
+        return _mapper.Map<List<ReadFilmeDto>>(_ctx.Filmes.Skip(skip).Take(take).Where(filme => filme.Sessoes.Any(sessao => sessao.Cinema.Nome.Equals(nomeCinema))).ToList());
     }
 
     [HttpGet("{id}")]
@@ -54,7 +56,7 @@ public class FilmeController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public ActionResult AtualizaFilme(int id, [FromBody] UpdateFilmeDto filmeDto) 
+    public ActionResult AtualizaFilme(int id, [FromBody] UpdateFilmeDto filmeDto)
     {
         var filme = _ctx.Filmes.FirstOrDefault(filme => filme.Id.Equals(id));
         if (filme == null)
@@ -84,7 +86,7 @@ public class FilmeController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public ActionResult DeletaFilme(int id) 
+    public ActionResult DeletaFilme(int id)
     {
         var filme = _ctx.Filmes.FirstOrDefault(filme => filme.Id.Equals(id));
         if (filme == null)

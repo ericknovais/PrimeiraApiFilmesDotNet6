@@ -13,8 +13,8 @@ public class FilmeProfile : AutoMapper.Profile
         CreateMap<CreateFilmeDto, Filme>();
         CreateMap<UpdateFilmeDto, Filme>();
         CreateMap<Filme, UpdateFilmeDto>();
-        CreateMap<Filme, ReadFilmeDto>().
-            ForMember(filmeDto => filmeDto.Sessoes,
-            opcao => opcao.MapFrom(filme => filme.Sessaos));
+        CreateMap<Filme, ReadFilmeDto>();
+            //ForMember(filmeDto => filmeDto.Sessoes,
+            //opcao => opcao.MapFrom(filme => filme.Sessoes));
     }
 }
